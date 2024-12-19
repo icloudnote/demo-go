@@ -13,5 +13,10 @@ func main() {
 			"message": "pong",
 		})
 	})
+	r.GET("/", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "success",
+		})
+	})
 	r.Run("0.0.0.0:8080")
 }
