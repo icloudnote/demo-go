@@ -1,2 +1,2 @@
-# go-example
-Go 示例仓库
+# demo-go
+CI/CD Go 示例仓库
